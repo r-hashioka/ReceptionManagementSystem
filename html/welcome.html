@@ -1,0 +1,275 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./src/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./src/slick/slick-theme.css">
+    <link href="./src/fontawesome/css/fontawesome-all.css" rel="stylesheet">
+    <style type="text/css">
+    body {
+        margin: 0px;
+    }
+
+    header,
+    main {
+        margin: 20px;
+    }
+
+    .logo img {
+        /*width: 284px;*/
+        height: 55px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 3rem;
+        background: #eceef2;
+    }
+
+    .copyright {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 20px;
+        text-align: center;
+    }
+
+    .msg {
+        text-align: center;
+    }
+
+    .people-wrap {
+        width: 100%;
+    }
+
+    .called-people {
+        width: 130px;
+        height: 130px;
+        margin: 10px auto;
+        padding: 10px 0;
+    }
+
+    .people-slider {
+        width: 100%;
+        height: 203px;
+        background: #eceef2;
+        border: solid #4D4D4D;
+        border-width: 3px 0;
+        margin: 10px 0;
+        padding: 20px 0;
+        overflow: hidden;
+        white-space: nowrap
+    }
+
+    .people {
+        position: relative;
+        display: inline-block;
+        width: 170px;
+        margin: 0 10px;
+    }
+
+    .people img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .people .people-name {
+        position: absolute;
+        width: 100%;
+        height: 1.2rem;
+        bottom: 0;
+        text-align: center;
+        background: white;
+        border: solid #f9c03c;
+        border-width: 1.5px 0;
+    }
+
+    .intercom{
+        width: 100%; 
+        height: 160px;
+    }
+
+    .btn-wrap {
+        text-align: center;
+    }
+
+    .isometric {
+        color: #484848;
+        display: inline-block;
+        height: 80px;
+        font-size: 40px;
+        line-height: 82px;
+        background: #eaeef1;
+        text-decoration: none;
+        box-sizing: border-box;
+        margin: 1em;
+    }
+
+    .isometric .iconback {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        color: white;
+        vertical-align: middle;
+    }
+
+    .isometric span {
+        vertical-align: middle;
+    }
+
+    .isometric .iconback .fa {
+        line-height: 77px;
+        font-size: 40px;
+    }
+
+    .isometric .btnttl {
+        display: inline-block;
+        width: 200px;
+        height: 80px;
+        text-align: center;
+        border-bottom: solid 4px #dcdcdc;
+        vertical-align: middle;
+    }
+
+    .isometric .istw {
+        background: #1da1f3;
+        border-bottom: solid 4px #1484ca;
+    }
+
+    .isometric:hover {
+        -ms-transform: translateY(4px);
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+
+    .isometric:hover .btnttl,
+    .isometric:hover .iconback {
+        border-bottom: none;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="./src/img/logo.png" /></div>
+    </header>
+    <main>
+        <div class="msg" >
+            <h1>Welcome!!!</h1>
+            <span>担当者を選択し、呼出ボタンを押してください。</span>
+        </div>
+        <div class="intercom" >
+            <div class="btn-wrap">
+                <a href="#" class="isometric"><span class="iconback istw"><i class="fa fa-volume-up"></i></span><span class="btnttl">CALL</span></a>
+            </div>
+        </div>
+        <div class="people-wrap">
+            <div class="called-people">
+                <div class="people"><img src="./src/img/okada.jpg" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/nagasawa.jpg" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/hashioka.png" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/sakai.webp" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+                <div class="people"><img src="./src/img/people.jpg" /></div>
+            </div>
+            <div class="people-slider">
+                <div class="people">
+                    <img src="./src/img/okada.jpg" />
+                    <div class="people-name">Okada</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Ohkura</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Iguchi</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/nagasawa.jpg" />
+                    <div class="people-name">Nagasawa</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Ohnishi</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Araoka</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Yamada</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Ikeuchi</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Tosa</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/hashioka.png" />
+                    <div class="people-name">Hashioka</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Koyanagi</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/sakai.webp" />
+                    <div class="people-name">Sakai</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Tamai</div>
+                </div>
+                <div class="people">
+                    <img src="./src/img/people.jpg" />
+                    <div class="people-name">Hayashi</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">©PEOPLE SOFTWARE CO. LTD.</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./src/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+    $('.called-people').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.people-slider' //サムネイルのクラス名
+    });
+    $('.people-slider').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerMode: true,
+        asNavFor: '.called-people', //スライダー本体のクラス名
+        focusOnSelect: true,
+    });
+    </script>
+</body>
+
+</html>
